@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"> -->
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo:300,400,500,700">
+    <style type="text/css">
+        .gm-style .gm-style-cc span,
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-mtc div {
+            font-size: 10px
+        }
+    </style>
+    <style type="text/css">
+        @media print {
+            .gm-style .gmnoprint,
+            .gmnoprint {
+                display: none
+            }
+        }
+
+        @media screen {
+            .gm-style .gmnoscreen,
+            .gmnoscreen {
+                display: none
+            }
+        }
+    </style>
+    <style type="text/css">
+        .gm-style-pbc {
+            transition: opacity ease-in-out;
+            background-color: rgba(0, 0, 0, 0.45);
+            text-align: center
+        }
+
+        .gm-style-pbt {
+            font-size: 22px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            position: relative;
+            margin: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%)
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>A next generation cloud storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/img/layout/favicon.png" rel="icon" type="image/png">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+
+        .gm-style img {
+            max-width: none;
+        }
+
+        #navbar ul>li .btn {
+            color: #57bb46;
+            text-transform: uppercase;
+            border: none;
+        }
+        /* --------------------------------
+
+Pricing
+
+-------------------------------- */
+
+        .pricing.section {
+            padding-bottom: 4em;
+        }
+
+        .plans {
+            margin: 1em auto;
+        }
+
+        .plan {
+            /* background: #fff; */
+            /* margin: 2em 0; */
+            border: 1px dashed #eee;
+            border-radius: 5px;
+            box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+            text-align: center;
+        }
+
+        .plan-icon {
+            margin-top: 2em;
+            margin-bottom: 0.2em;
+            height: 55px;
+        }
+
+        .plan-title {
+            line-height: 4em;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            border-bottom: 1px solid #eee;
+            font-weight: 800;
+            color: #2683ff;
+        }
+
+        .plan-pricing span {
+            display: block;
+            font-size: 15px;
+            line-height: 0;
+            background: #fff;
+            text-transform: uppercase;
+        }
+
+        .plan-pricing {
+            line-height: 2em;
+            font-size: 42px;
+            margin-top: 16px;
+            padding-bottom: 42px;
+            font-weight: 800;
+            color: #2683ff;
+        }
+
+        .plan-pricing {
+            margin-top: 0;
+        }
+
+        .content-center {
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        #about p {
+            font-size: 16px;
+        }
+
+        h2.about-2 {
+            line-height: 52px;
+        }
+
+        .compare {
+            border: 1px dashed #eee;
+            border-radius: 5px;
+            box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+            text-align: center;
+        }
+
+        .progress-bars.standard .progress-bar {
+            border-radius: 0px;
+        }
+
+        .compare-element .price-tip {
+            position: absolute;
+            background-color: #343434;
+            top: -30px;
+            padding: 1px 6px;
+            font-size: 11px;
+            right: -10px;
+            border-radius: 4px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body data-fade-in="true">
+
+    <div class="pre-loader" style="opacity: 0; display: none;">
+        <div></div>
+    </div>
+
+    <!-- Start Header -->
+    <nav class="navbar nav-down" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
+        <div class="container">
+
+            <div class="navbar-header">
+                <div class="container">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                    <a class="navbar-brand to-top" href="#"><img src="assets/img/layout/logo-light.png" class="logo-light" alt="#"><img src="assets/img/layout/logo-dark.png" class="logo-dark" alt="#"></a>
+                </div>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="container">
+                    <ul class="nav navbar-nav menu-right">
+
+                        <!-- Nav Bar Menu -->
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Overview</a></li>
+                        <li><a href="./developers.html">Developers</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact" class="nav-link btn btn-reverse">Get Started</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Home -->
+    <section id="home" class="home-fullscreen parallax" data-overlay-dark="7">
+        <div class="background-image" style="background-image: url('assets/img/backgrounds/bg-1.jpg'); opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <img src="assets/img/backgrounds/bg-1.jpg" alt="#">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="content-center" style="opacity: 1;">
+                    <div>
+                        <h1>A next generation<br><strong> Cloud Storage</strong></h1>
+                        <p class="lead">Encrypted, distributed, and reliable</p>
+                        <a href="#testimonials" class="btn btn-lg btn-primary btn-scroll">Try Free Space</a>
+                        <p><strong>1GB free space for 30 days.</strong></p>
+                        <p> No Credit Card Required. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- Services -->
+    <section id="features" class="pt100 pb90 bg-grey">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-center pb20">
+                    <h2 class="">Features<br></h2>
+                    <p class="lead"><span class="color">the perfect choice</span> for your cloud storage.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-dial size-3x color"></i>
+                    <i class="icon-dial back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Decentralized</strong></h4>
+                        <p>This is more reliable as we are using Distributed infrastructure behind the scene.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-lock size-3x color"></i>
+                    <i class="icon-lock back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Security Encryption</strong></h4>
+                        <p>Files uploaded are encrypted by default allowing you to rest assured that your data is safe and secure.</p>
+                        <!-- <p>Files are encrypted before it host by with private keys and shard across the nodes. This make hard to decrypted content without the private key.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-alarmclock size-3x color"></i>
+                    <i class="icon-alarmclock back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Higher Availability</strong></h4>
+                        <p>This provide high availability and your data is accessible when you need it. This provide about 99.9999% available which mean very rear downtime.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-lifesaver size-3x color"></i>
+                    <i class="icon-lifesaver back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Durability</strong></h4>
+                        <p>The data store redundantly across different nodes make this more durable. Your data mirrored and scattered across different nodes of the network.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-speedometer size-3x color"></i>
+                    <i class="icon-speedometer back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Blazing Fast</strong></h4>
+                        <p>This provide you more speed. When retrieving your files, you are able to download multiple pieces at the same time. This makes your downloads faster than ever!</p>
+                        <!-- <p>It finds nearby those nodes who hold shards of the file and download them from different nodes all at once. This make fast as you can download them in parallel.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature-left">
+                    <i class="icon-global size-3x color"></i>
+                    <i class="icon-global back-icon"></i>
+                    <div class="feature-left-content">
+                        <h4><strong>Global Access</strong></h4>
+                        <p>You can access the files by calling simple http apis. These apis make it easy to transfer data over the internet and download from the internet.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Start Price List -->
+    <section id="pricing" class="parallax pt110 pb70" data-overlay-dark="8">
+        <div class="background-image" style="background-image: url(&quot;assets/img/backgrounds/bg-5.jpg&quot;); opacity: 1; transform: translate3d(0px, 21.2812px, 0px);">
+            <img src="assets/img/backgrounds/bg-5.jpg" alt="#">
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-center pb20">
+                    <h2>Simple Pricing<br><strong>Pay only for what you use</strong></h2>
+                </div>
+                <div class="row plans">
+                    <div class="col-xs-6 col-sm-5 col-md-3 col-md-push-3 col-xs-push-0 col-sm-push-1">
+                        <div class="plan">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <p class="plan-title">Storage</p>
+                                    <img src="assets/img/layout/icon-storage.svg" class="plan-icon" alt="">
+                                    <h3 class="plan-pricing">$0.018<span>per GB per month</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-5 col-md-3 col-md-push-3 col-xs-push-0 col-sm-push-1">
+                        <div class="plan">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <p class="plan-title">Bandwidth</p>
+                                    <img src="assets/img/layout/icon-downloads.svg" class="plan-icon" alt="">
+                                    <h3 class="plan-pricing">$0.06<span>per GB downloaded</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <p class="lead">Start with trial. Upgrade anytime.</p>
+                    <a href="#testimonials" class="btn btn-lg btn-primary btn-scroll">Try Free Space</a>
+                    <p><strong>1GB free space for 30 days.</strong></p>
+                    <p> No Credit Card Required. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Price List -->
+
+    <!-- About Us -->
+    <section id="about" class="parallax pt100 pb90" data-overlay-light="9">
+        <div class="background-image" style="background-image: url(&quot;assets/img/backgrounds/bg-2.jpg&quot;); opacity: 1; transform: translate3d(0px, 51px, 0px);">
+            <img src="assets/img/backgrounds/bg-2.jpg" alt="#">
+        </div>
+        <div class="container">
+            <div class="row vertical-align ">
+                <div class="col-md-12 content-center">
+                    <h2>Overview</h2>
+                    <h2><strong>decentralize cloud storage</strong></h2>
+                    <p>Distributed Storage Bin (<strong>DistBin</strong>) is a decentralize cloud storage which is built on next generation cloud technology. This is designed to deliver security and encryption features to the end users. This can store more
+                        than exabytes of data and retrieve any amount of data very fast.<br/>
+                        <br /> This is cheaper, faster, and more secure than traditional cloud storage services. Decentralized cloud is on average less expensive than any other cloud storage providers. Storing 1TB costs far cheaper than other cloud storage
+                        providers.
+                        <br />
+                        <br />This is an adaptor which helps end user to access the decentralize network easily. The end user can access to those files through web ui, public apis and through other available tools.
+
+                        <br />
+                        <br />One of the greatest feature is user can store videos and stream any where on any device, no extra charges. User can host their websites rather pay any extra to any third party service providers. User can is also use to archive files with encryption.
+
+                        <br/>
+                        <br/>There are so many advantage of decentralized network of datacenters that, taken together, comprise the world's fastest, cheapest, and most secure cloud storage platform.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <section id="features" class="pt100 pb90 bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-push-2 content-center">
+                    <h2>Ready to transform to a new cloud storage ?</h2>
+                    <a href="#testimonials" class="btn btn-lg btn-primary btn-scroll">Get Started</a>
+                    <a href="#testimonials" class="btn btn-lg btn-secondary btn-scroll">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer id="footer" class="footer  dark">
+
+        <a href="#"><img src="assets/img/layout/footer-logo.png" alt="#" class="mr-auto img-responsive"></a>
+        <ul>
+            <li><a href="#" target="_blank" class="color"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#" target="_blank" class="color"><i class="ion-social-facebook"></i></a></li>
+        </ul>
+        <a href="#" target="_blank"><strong>© Copyright 2017</strong></a>
+
+        <!-- Back To Top Button -->
+        <span><a class="scroll-top"><i class="ion-chevron-up"></i></a></span>
+
+    </footer>
+    <!-- End Footer -->
+
+    <script src="assets/js/jqueryv2.1.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
